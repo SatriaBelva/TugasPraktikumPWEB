@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Mahasiswa</title>
+    <link href="./style/style-native.css" rel="stylesheet">
+    <script src="../script/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h1 class="logo">Dashboard</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Daftar Mahasiswa</a></li>
+                    <li><a href="asprak.html" class="nav-link">Daftar Asprak</a></li>
+                    <li><a href="dosen.html" class="nav-link">Daftar Dosen</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <h2 class="title">Welcome to the Dashboard</h2>
+            
+            <button id="addRowButton" class="action-button">Tambah Mahasiswa</button>
+            
+            <div class="table-container">
+                <table class="data-table" id="studentTable">
+                    <thead>
+                        <tr>
+                            <th>Nomor</th>
+                            <th>Nama</th>
+                            <th>NIM</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Satria Belva Nararya</td>
+                            <td>222410101052</td>
+                        </tr>
+                        <tr class="alt-row">
+                            <td>2</td>
+                            <td>Bejo</td>
+                            <td>222410101052</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Bejo</td>
+                            <td>222410101052</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
